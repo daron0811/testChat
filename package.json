@@ -8,8 +8,6 @@
 		"babel-preset-node6": "11.0.0"
 	},
 	"scripts": {
-		"build": "react-scripts build",
-		"start:local": "react-scripts start",
 		"start": "npm run build && babel-node --presets node6 service.js"
 	},
 	"author": "",
